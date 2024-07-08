@@ -81,3 +81,12 @@ installation:
 - [tdarr](https://hub.docker.com/r/haveagitg/tdarr)
 - [tdarr_node](https://hub.docker.com/r/haveagitg/tdarr_node)
 - [binhex-overseerr](https://hub.docker.com/r/binhex/arch-overseerr)
+
+- [traefik](https://hub.docker.com/r/traefik/traefik)
+- [Cloudflare-DDNS](https://github.com/oznu/docker-cloudflare-ddns)
+
+## Services
+
+- [Cloudflare](https://www.cloudflare.com/)
+- [Private Internet Access](https://www.privateinternetaccess.com/)
+- [Plex](https://www.plex.tv/)
