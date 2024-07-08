@@ -73,7 +73,7 @@ installation:
 
 - [Pihole-DoT-DoH](https://hub.docker.com/r/testdasi/pihole-dot-doh)
 - [binhex-plexpass](https://hub.docker.com/r/binhex/arch-plexpass)
-- [binhex-delugevpn](https://hub.docker.com/r/binhex/arch-delugevpn
+- [binhex-delugevpn](https://hub.docker.com/r/binhex/arch-delugevpn)
 - [binhex-flaresolverr](https://hub.docker.com/r/binhex/arch-flaresolverr)
 - [binhex-proxarr](https://hub.docker.com/r/binhex/arch-proxarr)
 - [binhex-radarr](https://hub.docker.com/r/binhex/arch-radarr)
