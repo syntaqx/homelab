@@ -81,10 +81,11 @@ installation:
 - [tdarr](https://hub.docker.com/r/haveagitg/tdarr)
 - [tdarr_node](https://hub.docker.com/r/haveagitg/tdarr_node)
 - [binhex-overseerr](https://hub.docker.com/r/binhex/arch-overseerr)
+- [tautulli](https://tautulli.com/)
 - [traefik](https://hub.docker.com/r/traefik/traefik)
 - [Cloudflare-DDNS](https://github.com/oznu/docker-cloudflare-ddns)
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/357230b9-92a5-4874-bb83-df0b4e9a31f8)
+![image](https://github.com/syntaqx/homelab/assets/6037730/e0b9c726-aae4-420a-98b3-6673f0695af4)
 
 ## Services
 
