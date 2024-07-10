@@ -85,7 +85,11 @@ installation:
 - [traefik](https://hub.docker.com/r/traefik/traefik)
 - [Cloudflare-DDNS](https://github.com/oznu/docker-cloudflare-ddns)
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/e0b9c726-aae4-420a-98b3-6673f0695af4)
+![image](https://github.com/syntaqx/homelab/assets/6037730/d1d64b36-9277-4917-80b2-8877d034a44c)
+
+> [!NOTE]
+> Traefik has been configured to use port `80` and `443` so I can route applications, such as overseerr externally.
+> To make this possible, I changed the Unraid Management Access to use ports `8001` and `44301`
 
 ## Services
 
