@@ -45,8 +45,8 @@ My home lab, project, builds, etc.
 The planned modifications for this that I have budgetted for are:
 
 - Swap the USB boot device to a smaller (actually 32GB) drive, it's currently a 64GB formatted with FAT32
-- 2x [Seagate IronWolf Pro 10/12/14 TB Enterprise NAS Internal HDD](https://amzn.to/4crl0J3) - Depending on budget, I'll go larger.
-  - I'm unfortunately limited to 6 SATA Ports by my motherboard, but if I reach my 50-70 TB storage limit I likely want a dedicated NAS anyways.
+- [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW) - At least 12 TB, maybe larger depending on budget.
+  - Mobo is unfortunately limited to 6 SATA ports (1 for Parity, 5 disks), but I figure 60+ TB should be enough until I build a dedicated NAS.
 - Swap the Parity & Array drives for the new higher capacity drives
 - Swap the Cache drive to the `Samsung 850 Pro 1 TB` drive
 - Add a second 1 TB SSD drive to the cache pool
