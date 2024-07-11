@@ -19,31 +19,31 @@ My home lab, project, builds, etc.
 
 ### Array Devices
 
-| Device | Identification                                       | Capacity |
-|--------|------------------------------------------------------|----------|
-| Parity | ST-2000DX001-1NS164_Z4Z5PQKQ - 2 TB (sdc)            | 2 TB     |
-| Disk 1 | Samsung_SSD_850_PRO_1TB_S252NX0H504724B - 1 TB (sdb) | 1 TB     |
+| Device | Identification                                         | Capacity |
+|--------|--------------------------------------------------------|----------|
+| Parity | `ST-2000DX001-1NS164_Z4Z5PQKQ - 2 TB (sdc)`            | 2 TB     |
+| Disk 1 | `Samsung_SSD_850_PRO_1TB_S252NX0H504724B - 1 TB (sdb)` | 1 TB     |
 
 ### Pool Devices
 
-| Device | Identification                                           | Capacity |
-|--------|----------------------------------------------------------|----------|
-| Cache  | Samsung_SSD_840_EVO_250GB_S1DBNSBFA84493X - 250 GB (sdd)	| 250 GB  |
+| Device | Identification                                             | Capacity |
+|--------|------------------------------------------------------------|----------|
+| Cache  | `Samsung_SSD_840_EVO_250GB_S1DBNSBFA84493X - 250 GB (sdd)`	| 250 GB  |
 
 #### Boot Device
 
-| Device | Identification                                           | Capacity |
-|--------|----------------------------------------------------------|----------|
-| Flash  | Silicon-Power32G - 32.2 GB (sda)                         | 32.2 GB  |
+| Device | Identification                                             | Capacity |
+|--------|------------------------------------------------------------|----------|
+| Flash  | `Silicon-Power32G - 32.2 GB (sda)`                         | 32.2 GB  |
 
-The planned modifications for this as I have the budget for it are:
+The planned modifications for this that I have budgetted for are:
 
-- 2x [Seagate IronWolf Pro 14 TB Enterprise NAS Internal HDD](https://www.amazon.com/dp/B0B94P481H/)
-- Swap the Parity and Disk 1 drives for the new 14 TB drives
-- Swap the Cache drive to the Samsung 850 Pro 1 TB drive
-- Add a second 1 TB drive to the cache pool
-- Add the ST-2000DX001-1NS164_Z4Z5PQKQ 2 TB drive to the pool
-- Throw away the Samsung 840 EVO 250 GB drive
+- Swap the USB boot device to a smaller (actually 32GB) drive, it's currently a 64GB formatted with FAT32
+- 2x [Seagate IronWolf Pro 10/12/14 TB Enterprise NAS Internal HDD)(https://www.amazon.com/dp/B0B94KSFTH/) - Depending on budget, I'll go larger.
+- Swap the Parity & Array drives for the new higher capacity drives
+- Swap the Cache drive to the `Samsung 850 Pro 1 TB` drive
+- Add a second 1 TB SSD drive to the cache pool
+- Thow away the `ST-2000DX001-1NS164_Z4Z5PQKQ 2 TB` and `Samsung 840 EVO 250 GB` drives, they're starting to fail
 
 ## Plugins
 
