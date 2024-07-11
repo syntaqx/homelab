@@ -2,6 +2,11 @@
 
 My home lab, project, builds, etc.
 
+![image](https://github.com/syntaqx/homelab/assets/6037730/ceeb7686-1565-4e00-b213-617165db3bec)
+
+> [!NOTE]
+> Real photo coming once my case arrives and I rebuild the previous one (and clean it)
+
 ## Tower
 
 ### Hardware
@@ -10,10 +15,11 @@ My home lab, project, builds, etc.
 - __CPU:__ Intel Core i7-6700K 4.00GHz
 - __Memory:__ 32GB DDR4 (max. installable capacity 64GB)
 - __GPU:__ NVIDIA GeForce GTX 1080
+- __Case:__ [DARKROCK Classico Storage Master ATX Computer Case Mid Tower](https://amzn.to/4cQ9HdP)
 
 ### Software
 
-- __OS:__ Unraid 6.12.10
+- __OS:__ Unraid 6.X
 
 ## Storage
 
@@ -39,7 +45,7 @@ My home lab, project, builds, etc.
 The planned modifications for this that I have budgetted for are:
 
 - Swap the USB boot device to a smaller (actually 32GB) drive, it's currently a 64GB formatted with FAT32
-- 2x [Seagate IronWolf Pro 10/12/14 TB Enterprise NAS Internal HDD](https://www.amazon.com/dp/B0B94KSFTH/) - Depending on budget, I'll go larger.
+- 2x [Seagate IronWolf Pro 10/12/14 TB Enterprise NAS Internal HDD](https://amzn.to/4crl0J3) - Depending on budget, I'll go larger.
 - Swap the Parity & Array drives for the new higher capacity drives
 - Swap the Cache drive to the `Samsung 850 Pro 1 TB` drive
 - Add a second 1 TB SSD drive to the cache pool
