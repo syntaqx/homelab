@@ -45,7 +45,7 @@ My home lab, project, builds, etc.
 The planned modifications for this that I have budgetted for are:
 
 - Swap the USB boot device to a smaller (actually 32GB) drive, it's currently a 64GB formatted with FAT32
-- [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW) - At least 12 TB, maybe larger depending on budget.
+- [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW) - I'll be getting at _least_ 8 TB, preferably 12, maybe larger depending on budget.
   - I'm limited to 6 SATA ports (1 for Parity, 5 disks), but 60+ TB should be enough until I build a dedicated NAS
 - Swap the Parity & Array drives for the new higher capacity drives
 - Swap the Cache drive to the `Samsung 850 Pro 1 TB` drive
