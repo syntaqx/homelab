@@ -62,7 +62,7 @@ The planned modifications for this that I have budgetted for are:
 
 ## Docker
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/b596cd9c-0292-41d1-9bfc-1609a4d06741)
+![image](https://github.com/syntaqx/homelab/assets/6037730/224c7e9e-d0cf-42c8-bd25-58aa0cd2a25a)
 
 > [!NOTE]
 > Traefik is configured to bind to ports `80` and `443` so I can route application traffic through
