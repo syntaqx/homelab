@@ -47,10 +47,7 @@ The planned modifications for this as I have the budget for it are:
 
 ## Plugins
 
-- [Community Applications](https://forums.unraid.net/topic/38582-plug-in-community-applications/)
-- [CPU Statistics](https://forums.unraid.net/topic/38582-plug-in-community-applications/)
-- [Nvidia Driver](https://forums.unraid.net/topic/38582-plug-in-community-applications/)
-- [User Scripts](https://forums.unraid.net/topic/38582-plug-in-community-applications/)
+- ![image](https://github.com/syntaqx/homelab/assets/6037730/dba1f98c-5ff8-4045-a9f0-807d2873ac20)
 
 ## Shares
 
@@ -71,27 +68,13 @@ storage setup, I have things set up this way.
 The following are the apps I have installed on my Unraid server, in order of
 installation:
 
-- [Pihole-DoT-DoH](https://hub.docker.com/r/testdasi/pihole-dot-doh)
-- [binhex-plexpass](https://hub.docker.com/r/binhex/arch-plexpass)
-- [binhex-delugevpn](https://hub.docker.com/r/binhex/arch-delugevpn)
-- [binhex-flaresolverr](https://hub.docker.com/r/binhex/arch-flaresolverr)
-- [binhex-proxarr](https://hub.docker.com/r/binhex/arch-proxarr)
-- [binhex-radarr](https://hub.docker.com/r/binhex/arch-radarr)
-- [binhex-sonarr](https://hub.docker.com/r/binhex/arch-sonarr)
-- [tdarr](https://hub.docker.com/r/haveagitg/tdarr)
-- [tdarr_node](https://hub.docker.com/r/haveagitg/tdarr_node)
-- [binhex-overseerr](https://hub.docker.com/r/binhex/arch-overseerr)
-- [tautulli](https://tautulli.com/)
-- [traefik](https://hub.docker.com/r/traefik/traefik)
-- [Cloudflare-DDNS](https://github.com/oznu/docker-cloudflare-ddns)
-
-![image](https://github.com/syntaqx/homelab/assets/6037730/d1d64b36-9277-4917-80b2-8877d034a44c)
+![image](https://github.com/syntaqx/homelab/assets/6037730/4f7f941c-d518-488c-af7c-f6ceb67c337f)
 
 > [!NOTE]
 > Traefik has been configured to use port `80` and `443` so I can route applications, such as overseerr externally.
 > To make this possible, I changed the Unraid Management Access to use ports `8001` and `44301`
 
-## Services
+## External Services
 
 - [Cloudflare](https://www.cloudflare.com/)
 - [Private Internet Access](https://www.privateinternetaccess.com/)
