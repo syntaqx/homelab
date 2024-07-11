@@ -54,7 +54,7 @@ The planned modifications for this that I have budgetted for are:
 
 ## Plugins
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/77c28080-2597-4d6c-8486-71a8de486dde)
+![image](https://github.com/syntaqx/homelab/assets/6037730/7fc8007b-fdf9-450a-98a3-f917d179c87b)
 
 ## Shares
 
