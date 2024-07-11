@@ -13,7 +13,7 @@ My home lab, project, builds, etc.
 
 ### Software
 
-- __OS:__ Unraid 6.1.79
+- __OS:__ Unraid 6.12.10
 
 ## Storage
 
