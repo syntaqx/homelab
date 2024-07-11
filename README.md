@@ -47,32 +47,20 @@ The planned modifications for this as I have the budget for it are:
 
 ## Plugins
 
-- ![image](https://github.com/syntaqx/homelab/assets/6037730/dba1f98c-5ff8-4045-a9f0-807d2873ac20)
+![image](https://github.com/syntaqx/homelab/assets/6037730/1bc6e777-70d7-49ee-bc75-6faa81f9799d)
 
 ## Shares
 
-- `appdata` - Array
-- `domains` - Cache ← Array
-- `downloads` - Cache ← Array
-- `downloads` - Cache ← Array
-- `isos` - Cache ← Array
-- `media` - Array
-- `system` - Cache ← Array
-- `tmp` - Array
+![image](https://github.com/syntaqx/homelab/assets/6037730/c62053b1-52f6-4a73-b8e6-d75317b4a86e)
 
-Most of the shares are meant to be set to prefer cache, but given my current
-storage setup, I have things set up this way.
+## Docker
 
-## Apps
-
-The following are the apps I have installed on my Unraid server, in order of
-installation:
-
-![image](https://github.com/syntaqx/homelab/assets/6037730/4f7f941c-d518-488c-af7c-f6ceb67c337f)
+![image](https://github.com/syntaqx/homelab/assets/6037730/b596cd9c-0292-41d1-9bfc-1609a4d06741)
 
 > [!NOTE]
-> Traefik has been configured to use port `80` and `443` so I can route applications, such as overseerr externally.
-> To make this possible, I changed the Unraid Management Access to use ports `8001` and `44301`
+> Traefik is configured to bind to ports `80` and `443` so I can route application traffic through
+> it, such as overseerr. To make this possible, Unraid's Management Access is bound to ports
+> `8001` and `44301` respectively.
 
 ## External Services
 
