@@ -39,7 +39,7 @@ My home lab, project, builds, etc.
 The planned modifications for this that I have budgetted for are:
 
 - Swap the USB boot device to a smaller (actually 32GB) drive, it's currently a 64GB formatted with FAT32
-- 2x [Seagate IronWolf Pro 10/12/14 TB Enterprise NAS Internal HDD)(https://www.amazon.com/dp/B0B94KSFTH/) - Depending on budget, I'll go larger.
+- 2x [Seagate IronWolf Pro 10/12/14 TB Enterprise NAS Internal HDD](https://www.amazon.com/dp/B0B94KSFTH/) - Depending on budget, I'll go larger.
 - Swap the Parity & Array drives for the new higher capacity drives
 - Swap the Cache drive to the `Samsung 850 Pro 1 TB` drive
 - Add a second 1 TB SSD drive to the cache pool
