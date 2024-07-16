@@ -43,7 +43,7 @@ My home lab, project, builds, etc.
 
 ## Docker
 
-![image](https://github.com/user-attachments/assets/0daf1c8a-98b9-48a0-b2e6-b02303fb6e20)
+![image](https://github.com/user-attachments/assets/580af1f9-1bca-4583-a503-54e8a89c971d)
 
 > [!NOTE]
 > Traefik is configured to bind to ports `80` and `443` so I can route application traffic through
