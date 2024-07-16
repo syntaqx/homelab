@@ -23,34 +23,14 @@ My home lab, project, builds, etc.
 
 ## Storage
 
-### Array Devices
+![image](https://github.com/user-attachments/assets/ef4b8754-00fa-4c31-b893-4a923144b716)
 
-| Device | Identification                                         | Capacity |
-|--------|--------------------------------------------------------|----------|
-| Parity | `ST-2000DX001-1NS164_Z4Z5PQKQ - 2 TB (sdc)`            | 2 TB     |
-| Disk 1 | `Samsung_SSD_850_PRO_1TB_S252NX0H504724B - 1 TB (sdb)` | 1 TB     |
+### TODO
 
-### Pool Devices
-
-| Device | Identification                                             | Capacity |
-|--------|------------------------------------------------------------|----------|
-| Cache  | `Samsung_SSD_840_EVO_250GB_S1DBNSBFA84493X - 250 GB (sdd)`	| 250 GB  |
-
-#### Boot Device
-
-| Device | Identification                                             | Capacity |
-|--------|------------------------------------------------------------|----------|
-| Flash  | `Silicon-Power32G - 32.2 GB (sda)`                         | 32.2 GB  |
-
-The planned modifications for this that I have budgetted for are:
-
-- Swap the USB boot device to a smaller (actually 32GB) drive, it's currently a 64GB formatted with FAT32
-- [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW) - I'll be getting at _least_ 8 TB, preferably 12, maybe larger depending on budget.
-  - I'm limited to 6 SATA ports (1 for Parity, 5 disks), but 60+ TB should be enough until I build a dedicated NAS
-- Swap the Parity & Array drives for the new higher capacity drives
-- Swap the Cache drive to the `Samsung 850 Pro 1 TB` drive
+- [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW)
+  - Currently only have 8 TB drives, plan to upgrade to larger in the future.
+  - I'm limited to 6 SATA ports (2xParity, 2xCache, 2xDisks) - So I'll need a sata expansion card.
 - Add a second 1 TB SSD drive to the cache pool
-- Thow away the `ST-2000DX001-1NS164_Z4Z5PQKQ 2 TB` and `Samsung 840 EVO 250 GB` drives, they're starting to fail
 
 ## Plugins
 
