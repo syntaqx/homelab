@@ -31,10 +31,11 @@ My home lab, project, builds, etc.
   - Currently only have 8 TB drives, plan to upgrade to larger in the future.
   - I'm limited to 6 SATA ports (2xParity, 2xCache, 2xDisks) - So I'll need a sata expansion card.
 - Add a second 1 TB SSD drive to the cache pool
+- Add a 10G Network Card, currently only have 1G
 
 ## Plugins
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/7fc8007b-fdf9-450a-98a3-f917d179c87b)
+![image](https://github.com/user-attachments/assets/1a651175-669f-4b07-bc25-606c3d043eae)
 
 ## Shares
 
@@ -42,7 +43,7 @@ My home lab, project, builds, etc.
 
 ## Docker
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/224c7e9e-d0cf-42c8-bd25-58aa0cd2a25a)
+![image](https://github.com/user-attachments/assets/0daf1c8a-98b9-48a0-b2e6-b02303fb6e20)
 
 > [!NOTE]
 > Traefik is configured to bind to ports `80` and `443` so I can route application traffic through
