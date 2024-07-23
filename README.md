@@ -25,6 +25,7 @@ My homelab.
 ### Software
 
 - __OS:__ Unraid 6.X
+- [Gigastone Z90 32GB USB 3.2 Gen1 Flash Drive](https://amzn.to/3YaZxjn)
 
 ## Storage
 
