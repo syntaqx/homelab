@@ -5,10 +5,10 @@ My homelab.
 ## Network Rack
 
 - [Tecmojo 12U Open Frame Network Rack](https://amzn.to/3y5hepV)
-- []StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU)(https://amzn.to/4fhcJZQ)
-- [Iwillink 24 Port Blank Keystone Patch Panel)(https://amzn.to/3WhhPg9)
-  - [VCE 20-Pack Blank Keystone Jack Inserts)(https://amzn.to/3yhkaj5)
-- [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler)(https://amzn.to/46ocRTC)
+- [StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU](https://amzn.to/4fhcJZQ)
+- [Iwillink 24 Port Blank Keystone Patch Panel](https://amzn.to/3WhhPg9)
+  - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3yhkaj5)
+- [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler](https://amzn.to/46ocRTC)
 - [Patch Cables Cat8 0.5ft (10 Pack)](https://amzn.to/3WdKXVv)
 
 ## Tower
