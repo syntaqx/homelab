@@ -16,6 +16,7 @@ My home lab, project, builds, etc.
 - __Memory:__ 32GB DDR4 (max. installable capacity 64GB)
 - __GPU:__ NVIDIA GeForce GTX 1080
 - __Case:__ [DARKROCK Classico Storage Master ATX Computer Case Mid Tower](https://amzn.to/4cQ9HdP)
+- __Network Card:__ [IO CREST 2.5 Gigabit Ethernet PCI-E NIC](https://amzn.to/4bP6MAA)
 
 ### Software
 
@@ -23,15 +24,14 @@ My home lab, project, builds, etc.
 
 ## Storage
 
-![image](https://github.com/user-attachments/assets/ef4b8754-00fa-4c31-b893-4a923144b716)
+![image](https://github.com/user-attachments/assets/7c6e6a46-aca4-43e7-ad47-4714d4f8b4a2)
 
 ### TODO
 
 - [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW)
   - Currently only have 8 TB drives, plan to upgrade to larger in the future.
   - I'm limited to 6 SATA ports (2xParity, 2xCache, 2xDisks) - So I'll need a sata expansion card.
-- Add a second 1 TB SSD drive to the cache pool
-- Add a 10G Network Card, currently only have 1G
+- Upgrade to a 10G NIC
 
 ## Plugins
 
