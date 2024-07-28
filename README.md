@@ -48,12 +48,7 @@ My homelab.
 
 ## Docker
 
-![image](https://github.com/user-attachments/assets/580af1f9-1bca-4583-a503-54e8a89c971d)
-
-> [!NOTE]
-> Traefik is configured to bind to ports `80` and `443` so I can route application traffic through
-> it, such as overseerr. To make this possible, Unraid's Management Access is bound to ports
-> `8001` and `44301` respectively.
+![image](https://github.com/user-attachments/assets/2fa043b2-5fca-4e75-99e9-493399bafe7b)
 
 ## External Services
 
