@@ -11,6 +11,15 @@ My homelab.
 - [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler](https://amzn.to/46ocRTC)
 - [Patch Cables Cat8 0.5ft (10 Pack)](https://amzn.to/3WdKXVv)
 
+### Server Rack (In Progress)
+
+- [StarTech.com 4-Post 15U Mobile Open Frame Server Rack](https://amzn.to/4dfhAZY)
+- [1U Hinged Vented Rack Mount Blank Panel Spacer](https://amzn.to/4d1FhVH)
+- [Iwillink 24 Port Blank Keystone Patch Panel](https://amzn.to/3WhhPg9)
+- [Patch Cables Cat8 1ft (5-Pack)](https://amzn.to/3ylh11S)
+  - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3A84qQb)
+- [Navepoint 1U Rack Mount Server Shelf](https://amzn.to/3WlrJxk)
+
 ## Tower
 
 ### Hardware
