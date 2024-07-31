@@ -2,7 +2,9 @@
 
 My homelab.
 
-## Network Rack
+## Racks
+
+### Network Rack
 
 - [Tecmojo 12U Open Frame Network Rack](https://amzn.to/3y5hepV)
 - [StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU](https://amzn.to/4fhcJZQ)
