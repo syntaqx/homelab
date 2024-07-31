@@ -61,7 +61,7 @@ My homelab.
 
 #### Docker
 
-![image](https://github.com/user-attachments/assets/599ddda8-5945-49da-8f69-dadeb395fc93)
+![image](https://github.com/user-attachments/assets/92e291de-e6e9-4961-a8fb-9cebb408cf6f)
 
 ## External Services
 
