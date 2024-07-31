@@ -22,9 +22,11 @@ My homelab.
   - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3A84qQb)
 - [Navepoint 1U Rack Mount Server Shelf](https://amzn.to/3WlrJxk)
 
-## Tower
+## Servers
 
-### Hardware
+### Tower
+
+#### Hardware
 
 - __Motherboard:__ ASUS Maximus VIII Hero Alpha
 - __CPU:__ Intel Core i7-6700K 4.00GHz
@@ -33,31 +35,31 @@ My homelab.
 - __Case:__ [DARKROCK Classico Storage Master ATX Computer Case Mid Tower](https://amzn.to/4cQ9HdP)
 - __Network Card:__ [IO CREST 2.5 Gigabit Ethernet PCI-E NIC](https://amzn.to/4bP6MAA)
 
-### Software
+#### Software
 
 - __OS:__ Unraid 6.X
 - [Gigastone Z90 32GB USB 3.2 Gen1 Flash Drive](https://amzn.to/3YaZxjn)
 
-## Storage
+#### Storage
 
 ![image](https://github.com/user-attachments/assets/7c6e6a46-aca4-43e7-ad47-4714d4f8b4a2)
 
-### TODO
+#### TODO
 
 - [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW)
   - Currently only have 8 TB drives, plan to upgrade to larger in the future.
   - I'm limited to 6 SATA ports (2xParity, 2xCache, 2xDisks) - So I'll need a sata expansion card.
 - Upgrade to a 10G NIC
 
-## Plugins
+#### Plugins
 
 ![image](https://github.com/user-attachments/assets/1a651175-669f-4b07-bc25-606c3d043eae)
 
-## Shares
+#### Shares
 
 ![image](https://github.com/syntaqx/homelab/assets/6037730/c62053b1-52f6-4a73-b8e6-d75317b4a86e)
 
-## Docker
+#### Docker
 
 ![image](https://github.com/user-attachments/assets/599ddda8-5945-49da-8f69-dadeb395fc93)
 
