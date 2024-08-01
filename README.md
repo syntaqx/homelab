@@ -42,7 +42,7 @@ My homelab.
 
 #### Storage
 
-![image](https://github.com/user-attachments/assets/7c6e6a46-aca4-43e7-ad47-4714d4f8b4a2)
+![image](https://github.com/user-attachments/assets/1b69ff5d-cdcc-4048-8a7e-289aadc57f7c)
 
 #### TODO
 
@@ -57,7 +57,7 @@ My homelab.
 
 #### Shares
 
-![image](https://github.com/syntaqx/homelab/assets/6037730/c62053b1-52f6-4a73-b8e6-d75317b4a86e)
+![image](https://github.com/user-attachments/assets/b40490fd-06e6-4a77-a33b-f2b301e06517)
 
 #### Docker
 
