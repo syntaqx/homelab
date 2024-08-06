@@ -2,7 +2,7 @@
 
 My homelab.
 
-![image](https://github.com/user-attachments/assets/13682bba-4684-465f-889a-8a07bc100468)
+![image](https://github.com/user-attachments/assets/243164f1-f375-400a-ba96-d2f22d7170b5)
 
 ## Racks
 
