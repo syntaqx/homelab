@@ -1,6 +1,6 @@
 # my homelab
 
-![image](https://github.com/user-attachments/assets/55872120-6d1e-408c-8830-77652261f2cd)
+![image](https://github.com/user-attachments/assets/af747711-ada1-4712-aad1-d739cdd5a760)
 
 ## Racks
 
