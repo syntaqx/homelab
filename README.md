@@ -1,8 +1,6 @@
 # homelab
 
-My homelab.
-
-![image](https://github.com/user-attachments/assets/243164f1-f375-400a-ba96-d2f22d7170b5)
+![image](https://github.com/user-attachments/assets/31ca70df-2d58-4095-b4b4-bc4a291b9609)
 
 ## Racks
 
@@ -101,3 +99,7 @@ whatever.
 - [Cloudflare](https://www.cloudflare.com/)
 - [Private Internet Access](https://www.privateinternetaccess.com/)
 - [Plex](https://www.plex.tv/)
+
+## Basement
+
+![image](https://github.com/user-attachments/assets/243164f1-f375-400a-ba96-d2f22d7170b5)
