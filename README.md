@@ -1,6 +1,9 @@
 # my homelab
 
-![image](https://github.com/user-attachments/assets/62d4d58a-7108-449f-ad4c-857e784a253f)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e1252161-1957-4408-a393-4e11b82fecfe">
+  <img src="[./light.png](https://github.com/user-attachments/assets/62d4d58a-7108-449f-ad4c-857e784a253f)">
+</picture>
 
 ## Racks
 
