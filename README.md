@@ -44,7 +44,7 @@ My homelab.
 
 #### Hardware
 
-- __OS:__ Unraid 6.X
+- __OS:__ Unraid 6.12.11
 - __Motherboard:__ ASUS Maximus VIII Hero Alpha
 - __CPU:__ Intel Core i7-6700K 4.00GHz
 - __Memory:__ 32GB DDR4 2133MHz (max. installable capacity 64GB)
