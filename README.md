@@ -49,7 +49,7 @@ My homelab.
 - __OS:__ Unraid 6.12.11
 - __Motherboard:__ ASUS Maximus VIII Hero Alpha
 - __CPU:__ Intel Core i7-6700K 4.00GHz
-- __Memory:__ 32GB DDR4 2133MHz (max. installable capacity 64GB)
+- __Memory:__ [Corsair Vengeance LPX 32GB DDR4 2133MHz](https://www.amazon.com/dp/B0196QNBU4) (max. installable capacity 64GB)
 - __GPU:__ NVIDIA GeForce GTX 1080
 - __Case:__ [DARKROCK Classico Storage Master ATX Computer Case Mid Tower](https://amzn.to/4cQ9HdP)
 - __Network Card:__ [IO CREST 2.5 Gigabit Ethernet PCI-E NIC](https://amzn.to/4bP6MAA)
