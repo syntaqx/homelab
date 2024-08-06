@@ -2,35 +2,51 @@
 
 My homelab.
 
+![image](https://github.com/user-attachments/assets/13682bba-4684-465f-889a-8a07bc100468)
+
 ## Racks
 
 ### Network Rack
 
 - [Tecmojo 12U Open Frame Network Rack](https://amzn.to/3y5hepV)
-- [StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU](https://amzn.to/4fhcJZQ)
 - [Iwillink 24 Port Blank Keystone Patch Panel](https://amzn.to/3WhhPg9)
   - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3yhkaj5)
-- [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler](https://amzn.to/46ocRTC)
-- [Patch Cables Cat8 0.5ft (10 Pack)](https://amzn.to/3WdKXVv)
+  - [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler](https://amzn.to/46ocRTC)
+  - [Patch Cables Cat8 0.5ft (10 Pack)](https://amzn.to/3WdKXVv)
+- [MokerLink 8 Port 10Gbps Ethernet Switch](https://amzn.to/4cdCKqy)
+- [1U Hinged Vented Rack Mount Blank Panel Spacer](https://amzn.to/4d1FhVH)
+- [StarTech.com 8 Outlet Horizontal 1U Rack Mount PDU](https://amzn.to/4fhcJZQ)
 
-### Server Rack (In Progress)
+#### Networking Equiptment
+
+- GFiber Fiber Jack
+- GFiber Wi-Fi 6E Router
+- 2x GFiber Wi-Fi 6E Extender
+
+### Server Rack
 
 - [StarTech.com 4-Post 15U Mobile Open Frame Server Rack](https://amzn.to/4dfhAZY)
-- [1U Hinged Vented Rack Mount Blank Panel Spacer](https://amzn.to/4d1FhVH)
+- [Navepoint iU 19-Inch Rack Mount Server Shelf with Adjustable Depth](https://amzn.to/4dt4bNZ)
 - [Iwillink 24 Port Blank Keystone Patch Panel](https://amzn.to/3WhhPg9)
-- [Patch Cables Cat8 1ft (5-Pack)](https://amzn.to/3ylh11S)
-  - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3A84qQb)
-- [Navepoint 1U Rack Mount Server Shelf](https://amzn.to/3WlrJxk)
+  - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3yhkaj5)
+  - [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler](https://amzn.to/46ocRTC)
+  - [Patch Cables Cat8 0.5ft (10 Pack)](https://amzn.to/3WdKXVv)
+- [1U Hinged Vented Rack Mount Blank Panel Spacer](https://amzn.to/4d1FhVH)
+
+#### TODO
+
+- Rack mounted battery UPS for both racks, they're currently sharing an old CyberPower 1500va
+  - Maybe this one? https://www.amazon.com/dp/B0016P8OII/
 
 ## Servers
 
-### Tower
+### "Darkrock"
 
 #### Hardware
 
 - __Motherboard:__ ASUS Maximus VIII Hero Alpha
 - __CPU:__ Intel Core i7-6700K 4.00GHz
-- __Memory:__ 32GB DDR4 (max. installable capacity 64GB)
+- __Memory:__ 32GB DDR4 2133MHz (max. installable capacity 64GB)
 - __GPU:__ NVIDIA GeForce GTX 1080
 - __Case:__ [DARKROCK Classico Storage Master ATX Computer Case Mid Tower](https://amzn.to/4cQ9HdP)
 - __Network Card:__ [IO CREST 2.5 Gigabit Ethernet PCI-E NIC](https://amzn.to/4bP6MAA)
@@ -63,8 +79,19 @@ My homelab.
 
 ![image](https://github.com/user-attachments/assets/92e291de-e6e9-4961-a8fb-9cebb408cf6f)
 
+### "R630"
+
+> [!NOTE]
+> The R630 is still currently in progress, as I'm not going to boot it up until I have a separate
+> UPS for this rack - The power draw from both servers would bend my network to its knees if the
+> power went out.
+
+- Dell PowerEdge R630
+- __Memory:__ 256GB DDR4 1866MHz
+
 ## External Services
 
+- [Google Fiber](https://fiber.google.com) - 5 gig (want 8, but we'll wait for a bit)
 - [Cloudflare](https://www.cloudflare.com/)
 - [Private Internet Access](https://www.privateinternetaccess.com/)
 - [Plex](https://www.plex.tv/)
