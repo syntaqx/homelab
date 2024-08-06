@@ -54,26 +54,26 @@ My homelab.
 
 #### Storage
 
-![image](https://github.com/user-attachments/assets/1b69ff5d-cdcc-4048-8a7e-289aadc57f7c)
+![image](https://github.com/user-attachments/assets/b7906515-8e5e-47dc-a1f8-9a8e40791b9e)
 
-#### TODO
+##### TODO
 
 - [Seagate Exos Hard Drive](https://amzn.to/3VXDoSW)
   - Currently only have 8 TB drives, plan to upgrade to larger in the future.
   - I'm limited to 6 SATA ports (2xParity, 2xCache, 2xDisks) - So I'll need a sata expansion card.
 - Upgrade to a 10G NIC
 
-#### Plugins
-
-![image](https://github.com/user-attachments/assets/1a651175-669f-4b07-bc25-606c3d043eae)
-
 #### Shares
 
-![image](https://github.com/user-attachments/assets/b40490fd-06e6-4a77-a33b-f2b301e06517)
+![image](https://github.com/user-attachments/assets/b6e0e4cc-e1e7-497d-a6f1-ea62b66b3b92)
+
+#### Plugins
+
+![image](https://github.com/user-attachments/assets/22dd0e1b-fd3f-47a5-9151-d55cbaffda74)
 
 #### Docker
 
-![image](https://github.com/user-attachments/assets/92e291de-e6e9-4961-a8fb-9cebb408cf6f)
+![image](https://github.com/user-attachments/assets/2280816f-5a7c-4446-bcb2-ef01b1bc4592)
 
 ### "R630"
 
