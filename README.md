@@ -1,8 +1,8 @@
 # my homelab
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e1252161-1957-4408-a393-4e11b82fecfe">
-  <img src="[./light.png](https://github.com/user-attachments/assets/62d4d58a-7108-449f-ad4c-857e784a253f)">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/693f89ed-52c4-4ebc-99a1-a9aa8dd3e096">
+  <img src="https://github.com/user-attachments/assets/b64ba7e9-31f3-4274-808d-5c29a44e8588">
 </picture>
 
 ## Racks
