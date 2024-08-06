@@ -26,7 +26,7 @@ My homelab.
 ### Server Rack
 
 - [StarTech.com 4-Post 15U Mobile Open Frame Server Rack](https://amzn.to/4dfhAZY)
-- [Navepoint iU 19-Inch Rack Mount Server Shelf with Adjustable Depth](https://amzn.to/4dt4bNZ)
+- [Navepoint 1U 19-Inch Rack Mount Server Shelf with Adjustable Depth](https://amzn.to/4dt4bNZ)
 - [Iwillink 24 Port Blank Keystone Patch Panel](https://amzn.to/3WhhPg9)
   - [VCE 20-Pack Blank Keystone Jack Inserts](https://amzn.to/3yhkaj5)
   - [iwillink 10Gbps CAT7 Coupler RJ45 Keystone Shielded Coupler](https://amzn.to/46ocRTC)
@@ -35,6 +35,8 @@ My homelab.
 
 #### TODO
 
+- Would like to make a custom top from butcher block or something for this instead of using
+  the navepoint 1U shelf which doesn't give me full use of the top.
 - Rack mounted battery UPS for both racks, they're currently sharing an old CyberPower 1500va
   - Maybe this one? https://www.amazon.com/dp/B0016P8OII/
 
