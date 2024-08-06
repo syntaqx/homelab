@@ -44,17 +44,13 @@ My homelab.
 
 #### Hardware
 
+- __OS:__ Unraid 6.X
 - __Motherboard:__ ASUS Maximus VIII Hero Alpha
 - __CPU:__ Intel Core i7-6700K 4.00GHz
 - __Memory:__ 32GB DDR4 2133MHz (max. installable capacity 64GB)
 - __GPU:__ NVIDIA GeForce GTX 1080
 - __Case:__ [DARKROCK Classico Storage Master ATX Computer Case Mid Tower](https://amzn.to/4cQ9HdP)
 - __Network Card:__ [IO CREST 2.5 Gigabit Ethernet PCI-E NIC](https://amzn.to/4bP6MAA)
-
-#### Software
-
-- __OS:__ Unraid 6.X
-- [Gigastone Z90 32GB USB 3.2 Gen1 Flash Drive](https://amzn.to/3YaZxjn)
 
 #### Storage
 
@@ -88,6 +84,14 @@ My homelab.
 
 - Dell PowerEdge R630
 - __Memory:__ 256GB DDR4 1866MHz
+
+#### Storage
+
+- 3x [Dell 1.2TB 10K 12GB/s SAS 2.5" HDD](https://amzn.to/3WtA3v0)
+
+Still want 2x SSDs for cache and since SAS drives are so expensive I'll probably fill the box with
+1.2TBs. This will primarily be a self-hosting box for my apps and maybe a minecraft server or
+whatever.
 
 ## External Services
 
