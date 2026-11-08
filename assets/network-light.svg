@@ -25,7 +25,7 @@
 <rect x="920" y="350" width="360" height="200" fill="#FFFFFF" fill-opacity="0.35" stroke="#7F9AA0" stroke-width="1.5"/>
 <text x="1266" y="536" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4A6670" text-anchor="end" letter-spacing="2">BEDROOM 2</text>
 <rect x="1320" y="350" width="440" height="200" fill="#FFFFFF" fill-opacity="0.35" stroke="#7F9AA0" stroke-width="1.5"/>
-<text x="1746" y="536" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4A6670" text-anchor="end" letter-spacing="2">BEDROOM 3</text>
+<text x="1746" y="536" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4A6670" text-anchor="end" letter-spacing="2">BEDROOM 3 · OFFICE</text>
 <rect x="920" y="650" width="840" height="300" fill="#FFFFFF" fill-opacity="0.35" stroke="#7F9AA0" stroke-width="1.5"/>
 <text x="1746" y="674" font-family="'Space Grotesk', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4A6670" text-anchor="end" letter-spacing="2">SERVER ROOM</text>
 <rect x="940" y="690" width="410" height="240" fill="none" stroke="rgba(0,120,115,0.6)" stroke-width="1.25" stroke-dasharray="5 5"/>
@@ -51,7 +51,7 @@
 <text x="1300" y="262" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="500" fill="#4A6670" text-anchor="start" letter-spacing="1.5">WI-FI</text>
 <text x="1392" y="262" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#0A1A2B" text-anchor="start">GFiber 6E router + 2 GFiber 6E APs</text>
 <text x="1300" y="296" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="500" fill="#4A6670" text-anchor="start" letter-spacing="1.5">SERVERS</text>
-<text x="1392" y="296" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#0A1A2B" text-anchor="start">darkrock (Unraid) · r630 (Proxmox, planned)</text>
+<text x="1392" y="296" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#0A1A2B" text-anchor="start">darkrock (storage) · sentinel (DNS) · r630 (off)</text>
 <path d="M560 630 L788 630" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M812 630 L906 630 L906 870 L972 870" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M558 845 L894 845 L894 876 L972 876" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -66,6 +66,7 @@
 <path d="M1235 760 L1178 760" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1122 760 L1060 760 L1060 861" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1176 754 L1176 724 L1460 724 L1460 751" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1068 870 L1196 870" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1250 771 L1250 1000" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1450 769 L1450 845" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1470 769 L1470 815 L1650 815 L1650 845" fill="none" stroke="#007873" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
@@ -168,6 +169,15 @@
 <rect x="1235" y="750" width="30" height="21" rx="3" fill="#FFFFFF" stroke="#0A1A2B" stroke-width="1.5"/>
 <circle cx="1250" cy="760" r="4" fill="none" stroke="#007873" stroke-width="1.2"/>
 <text x="1274" y="764" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0A1A2B" text-anchor="start">Fiber Jack</text>
+<rect x="1165" y="855" width="110" height="30" rx="2" fill="#FFFFFF" stroke="#0A1A2B" stroke-width="1.5"/>
+<rect x="1176" y="867" width="44" height="6" fill="none" stroke="#4A6670" stroke-width="1"/>
+<path d="M1234 862 L1234 878" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1241 862 L1241 878" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1248 862 L1248 878" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1255 862 L1255 878" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1262 862 L1262 878" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1220" y="902" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#0A1A2B" text-anchor="middle">sentinel.local</text>
+<text x="1220" y="916" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#4A6670" text-anchor="middle">N100 · DNS, tunnel</text>
 <rect x="1428.0" y="751" width="64" height="18" rx="2" fill="#FFFFFF" stroke="#0A1A2B" stroke-width="1.5"/>
 <rect x="1437.5" y="757" width="6" height="6" fill="none" stroke="#007873" stroke-width="1"/>
 <rect x="1450.5" y="757" width="6" height="6" fill="none" stroke="#007873" stroke-width="1"/>
@@ -191,7 +201,7 @@
 <path d="M1685 852 L1685 868" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M1692 852 L1692 868" fill="none" stroke="#4A6670" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
 <text x="1650" y="894" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#0A1A2B" text-anchor="middle">r630.local</text>
-<text x="1650" y="910" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#4A6670" text-anchor="middle">off until rack UPS</text>
+<text x="1650" y="910" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#4A6670" text-anchor="middle">off until UPS upgrade</text>
 <rect x="1130" y="1000" width="240" height="52" rx="26" fill="#FFFFFF" stroke="#007873" stroke-width="1.5"/>
 <text x="1250" y="1031" font-family="'IBM Plex Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#007873" text-anchor="middle" letter-spacing="1">INTERNET · GFIBER 5 GIG</text>
 </svg>

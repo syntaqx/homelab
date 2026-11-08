@@ -1,6 +1,6 @@
 # Runbook: R630 bring-up
 
-Only after the server rack has its own UPS (Phase 2).
+Only after the server rack's UPS upgrade (Phase 2); the current 300 W unit can't carry it.
 
 1. Plug in iDRAC and power on. Update iDRAC, BIOS and firmware (Lifecycle Controller or Dell's update packages).
 2. Record CPU model(s) and the network daughter card in [servers/r630.md](../servers/r630.md).

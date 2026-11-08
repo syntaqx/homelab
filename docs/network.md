@@ -27,6 +27,7 @@ Because it's unmanaged:
 | Darkrock | Server-rack 2.5G switch | 2.5GbE | IO CREST NIC; retires in Phase 1 |
 | X15 | TL-SX1008 | 10GbE | Phase 1 · Intel X550-T2, one port in use, via the keystone panels |
 | R630 | TL-SX1008 | 10GbE | Phase 3 · depends on its daughter card |
+| Sentinel | TL-SX1008 | 2.5GbE | DNS (AdGuard Home), Cloudflare Tunnel |
 | X15 IPMI / R630 iDRAC | Server-rack 2.5G switch | 1GbE | Management |
 
 ## Devices by room
@@ -35,10 +36,10 @@ Same as the diagram, in text so changes show up in diffs.
 
 | Room | Wired | Wi-Fi |
 | --- | --- | --- |
-| Server room · network rack | Fiber Jack → GFiber 6E Router → TP-Link TL-SX1008 | |
+| Server room · network rack | Fiber Jack → GFiber 6E Router → TP-Link TL-SX1008 → sentinel.local | |
 | Server room · server rack | 2.5G switch (off the router) → darkrock.local, r630.local | |
 | Bedroom 2 | GUEST desktop → TL-SX1008 | |
-| Bedroom 3 | 2.5G switch → TL-SX1008, serving SYNTAQX desktop, Hue Bridge, SureFlap Bridge, GFiber 6E AP | Chromecast |
+| Bedroom 3 (office) | 2.5G switch → TL-SX1008, serving SYNTAQX desktop, Hue Bridge, SureFlap Bridge, GFiber 6E AP | Chromecast |
 | Bedroom 4 | MAXXI desktop → TL-SX1008 | |
 | Family room | GFiber 6E AP → TL-SX1008; Chromecast wired to the AP | |
 | Bedroom 1 | | Chromecast |

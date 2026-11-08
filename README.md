@@ -16,14 +16,14 @@ server rack below it. The diagram is generated from
 | --- | --- | --- |
 | **Internet** | Google Fiber 5 Gig | 8 Gig, eventually |
 | **Network core** | TP-Link TL-SX1008, 8× 10G | — |
-| **Storage** | Darkrock, Unraid 7.3.4, 84 TB array, 79% full | 45HomeLab X15, 104 TB on day one |
-| **Compute** | Dell R630, 256 GB, powered off | Proxmox, once the rack has its own UPS |
-| **Power** | One CyberPower 1500VA for both racks | Rack UPS for the server rack |
+| **Storage** | Darkrock (Unraid 7), 84 TB array, 79% full | 45HomeLab X15, 104 TB on day one |
+| **Servers** | Darkrock (storage), Sentinel (DNS, tunnel); R630 off | Proxmox on the R630, after the UPS upgrade |
+| **Power** | A 1U CyberPower UPS per rack; the server rack's is 62% loaded | ≥1,000 W UPS for the server rack |
 
 ## Docs
 
 - [Racks](docs/racks.md): both racks, U-by-U
-- Servers: [Darkrock](docs/servers/darkrock.md) · [X15 (planned)](docs/servers/x15.md) · [R630](docs/servers/r630.md)
+- Servers: [Darkrock](docs/servers/darkrock.md) · [Sentinel](docs/servers/sentinel.md) · [X15 (planned)](docs/servers/x15.md) · [R630](docs/servers/r630.md)
 - [Storage](docs/storage.md): array layout and growth plan
 - [Network](docs/network.md): internet, switching, links
 - [Power](docs/power.md): UPS and load

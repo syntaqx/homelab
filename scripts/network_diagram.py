@@ -123,7 +123,7 @@ def build(t):
     room(480, 580, 400, 180, "FAMILY ROOM")
     room(480, 790, 400, 160, "BEDROOM 4")
     room(920, 350, 360, 200, "BEDROOM 2")
-    room(1320, 350, 440, 200, "BEDROOM 3")
+    room(1320, 350, 440, 200, "BEDROOM 3 · OFFICE")
     room(920, 650, 840, 300, "SERVER ROOM", label_top=True)
     rack(940, 690, 410, 240, "NETWORK RACK · 12U", right=True)
     rack(1370, 690, 370, 240, "SERVER RACK · 15U")
@@ -137,7 +137,7 @@ def build(t):
     text(1010, 266, "Rack", 12, anchor="start")
     text(944, 300, "→ X15", 12, t["caution"], "start", weight=600); text(1010, 300, "Changing soon (see docs/roadmap.md)", 12, anchor="start")
     facts = [("INTERNET", "Google Fiber 5 Gig"), ("CORE", "TP-Link TL-SX1008 · 8× 10G"),
-             ("WI-FI", "GFiber 6E router + 2 GFiber 6E APs"), ("SERVERS", "darkrock (Unraid) · r630 (Proxmox, planned)")]
+             ("WI-FI", "GFiber 6E router + 2 GFiber 6E APs"), ("SERVERS", "darkrock (storage) · sentinel (DNS) · r630 (off)")]
     for i, (k, v) in enumerate(facts):
         y = 194 + i * 34
         text(1300, y, k, 11, t["muted"], "start", MONO, 500, 1.5)
@@ -161,6 +161,8 @@ def build(t):
     line([(1235, 760), (1178, 760)])
     line([(1122, 760), (1060, 760), (1060, 861)])
     line([(1176, 754), (1176, 724), (1460, 724), (1460, 751)])
+    # TL-SX1008 -> sentinel
+    line([(1068, 870), (1196, 870)])
     # Fiber jack -> internet
     line([(1250, 771), (1250, 1000)])
     # Server rack switch -> servers
@@ -215,6 +217,9 @@ def build(t):
     shape("rect", x=1235, y=750, width=30, height=21, rx=3, fill=S["fill"], stroke=S["stroke"], stroke_width=1.5)
     shape("circle", cx=1250, cy=760, r=4, fill="none", stroke=t["accent"], stroke_width=1.2)
     text(1274, 764, "Fiber Jack", 11, anchor="start")
+    server(1220, 870)
+    text(1220, 902, "sentinel.local", 11, weight=600)
+    text(1220, 916, "N100 · DNS, tunnel", 10, t["muted"])
 
     # Server rack
     switch(1460, 760, 64, 4)
@@ -224,7 +229,7 @@ def build(t):
     text(1460, 910, "→ X15 · Phase 1", 10, t["caution"], weight=600)
     server(1650, 860)
     text(1650, 894, "r630.local", 11, weight=600)
-    text(1650, 910, "off until rack UPS", 10, t["muted"])
+    text(1650, 910, "off until UPS upgrade", 10, t["muted"])
 
     # Internet
     a(f'<rect x="1130" y="1000" width="240" height="52" rx="26" fill="{t["panel"]}" stroke="{t["accent"]}" stroke-width="1.5"/>')
@@ -237,6 +242,6 @@ def build(t):
 out = sys.argv[1]
 os.makedirs(out, exist_ok=True)
 for name, theme in THEMES.items():
-    with open(os.path.join(out, f"network-{name}.svg"), "w") as f:
+    with open(os.path.join(out, f"network-{name}.svg"), "w", encoding="utf-8", newline="\n") as f:
         f.write(build(theme))
 print("ok")

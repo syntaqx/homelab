@@ -1,7 +1,7 @@
 # Storage
 
-Unraid array on Darkrock today, moving to the 45HomeLab X15 in Phase 1. Snapshot taken 2026-11-07
-on Unraid 7.3.4.
+Unraid 7 array on Darkrock today, moving to the 45HomeLab X15 in Phase 1. Figures are a snapshot
+from 2026-11-07.
 
 ## Array
 
@@ -22,11 +22,13 @@ On hand, not yet installed: **1× Exos 20 TB spare**. It waits for the X15's fir
 than replacing an 8 TB disk in Darkrock (a free bay adds 20 TB with no rebuild; a swap adds 12 TB and
 rebuilds a disk). Preclear it ahead of time over USB with the Unassigned Devices Preclear plugin.
 
+Last parity check: 2026-10-05, 0 errors, 1 day 9 hours at 167.8 MB/s. Drives run 30–36 °C.
+
 ## Pools
 
 | Pool | Devices | Filesystem | Size | Used |
 | --- | --- | --- | --- | --- |
-| Cache | Samsung 850 PRO 1TB + Samsung 870 EVO 1TB (mirror) | btrfs | 994 GB | 189 GB |
+| Cache | Samsung 850 PRO 1TB + Samsung 870 EVO 1TB (mirror) | btrfs | 994 GB | 193 GB |
 
 ## Boot
 

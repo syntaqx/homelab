@@ -9,7 +9,7 @@ power and cost. Exports live in [`assets/plans/`](../assets/plans/).
 | Phase | What | Cost |
 | --- | --- | --- |
 | P1 · Storage | 45HomeLab X15 replaces Darkrock | $3,941–3,991 |
-| P2 · Power | Rack UPS for the server rack | $500–1,000 est. |
+| P2 · Power | Bigger UPS for the server rack | $500–1,000 est. |
 | P3 · Compute | R630 back on with Proxmox | ≤$150 est. + SSDs |
 | | **Total** | **$4,441–5,141** + SSDs, drives |
 
@@ -23,6 +23,7 @@ power and cost. Exports live in [`assets/plans/`](../assets/plans/).
 ## P1 · Storage (now)
 
 - [ ] Order the X15: 64GB ECC, rails, 2× 2.5″ bay adapters
+- [ ] Power for the X15: its ~400 W peak overruns the server rack's 300 W UPS, so land P2's UPS first or run it from the 1500VA tower
 - [ ] Preclear the spare 20 TB Exos over USB while waiting
 - [ ] Rack the X15 above the UPS; update BIOS and microcode; burn in
 - [ ] Migrate: [runbooks/x15-migration.md](runbooks/x15-migration.md)
@@ -32,8 +33,8 @@ power and cost. Exports live in [`assets/plans/`](../assets/plans/).
 
 ## P2 · Power (next)
 
-- [ ] 2U rack UPS, server rack only: ≥1,500VA, ≥1,000 W, pure sine, shutdown signal
-- [ ] CyberPower 1500VA back to the network rack alone
+- [x] A UPS per rack (CyberPower OR700 network, OR500 server)
+- [ ] Replace the server rack's OR500 with a 2U UPS: ≥1,500VA, ≥1,000 W, pure sine, shutdown signal
 - [ ] Gate: UPS live, runtime tested by pulling the plug, clean shutdown confirmed
 
 ## P3 · Compute (when wanted)
